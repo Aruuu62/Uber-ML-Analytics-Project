@@ -71,23 +71,23 @@ This project combines a modern React frontend with Python ML services to deliver
 
 ## ML Pipeline
 
-Synthetic data generation for realistic ride patterns
+- Synthetic data generation for realistic ride patterns
 
-Random Forest models for fare & ETA prediction
+- Random Forest models for fare & ETA prediction
 
-Feature engineering: time, weather, and location-based features
+- Feature engineering: time, weather, and location-based features
 
-Confidence scoring for reliability
+- Confidence scoring for reliability
 
 ### Factors reducing confidence:
 
-Distance > 30km
+- Distance > 30km
 
-Rush hour (7–9 AM, 5–7 PM)
+- Rush hour (7–9 AM, 5–7 PM)
 
-Rainy weather
+- Rainy weather
 
-Riksha / Auto Riksha (route variability)
+- Riksha / Auto Riksha (route variability)
 
 ### Installation
 ```bash
