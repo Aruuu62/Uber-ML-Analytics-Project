@@ -67,7 +67,27 @@ This project combines a modern React frontend with Python ML services to deliver
 ### Prerequisites
 - Node.js 18+  
 - Python 3.8+  
-- npm or yarn  
+- npm or yarn
+
+## ML Pipeline
+
+Synthetic data generation for realistic ride patterns
+
+Random Forest models for fare & ETA prediction
+
+Feature engineering: time, weather, and location-based features
+
+Confidence scoring for reliability
+
+### Factors reducing confidence:
+
+Distance > 30km
+
+Rush hour (7–9 AM, 5–7 PM)
+
+Rainy weather
+
+Riksha / Auto Riksha (route variability)
 
 ### Installation
 ```bash
@@ -87,3 +107,4 @@ npm run dev
 # Test ML prediction scripts
 python scripts/predict_ride_details.py
 python scripts/advanced_ride_predictor.py
+
